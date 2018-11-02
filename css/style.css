@@ -1,0 +1,79 @@
+/* задание 1*/
+.home_element {
+    display: flex;
+    flex-direction: column;
+}
+
+.cube {
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+/* задание 2*/
+.first {
+    background-color: #4e00e0;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+
+}
+
+.second {
+    background-color: #f5ff00;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    margin: -30px 10px;
+}
+
+
+/* задание 3*/
+.cube_first {
+    width: 50%;
+    background: yellow;
+    position: relative;
+    height: 200px;
+    margin: auto;
+}
+
+.cube_second {
+    width: 50%;
+    background: blue;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: 100px;
+    padding: 55px;
+}
+
+#id-1 {
+    margin-top: 100px;
+}
+
+/* задание4 */
+
+
+li:nth-child(2n+3) {
+    background: red;
+}
+
+li:nth-last-child(3n+2) {
+    padding: 50px;
+}
+
+li:nth-last-of-type(2n+1) {
+    background: blue;
+}
+li:nth-of-type(4n){
+    background: pink;
+}
+#id2:first-letter{
+    color: red;
+}
+.class-12:first-line{
+    color: blueviolet;
+}
